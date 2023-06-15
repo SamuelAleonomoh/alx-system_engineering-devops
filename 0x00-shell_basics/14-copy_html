@@ -1,0 +1,2 @@
+#!/bin/bash
+parent_dir="$(dirname "$(pwd)")"; for file in $(find . -name '*.html' -type f -newer "$parent_dir"); do cp -u "$file" "$parent_dir"; done
