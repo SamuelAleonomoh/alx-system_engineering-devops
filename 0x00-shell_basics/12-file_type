@@ -1,2 +1,2 @@
 #!/bin/bash
-file_path="/tmp/iamafile" echo "$file_path: $(file -b "$file_path")"
+echo "/tmp/iamafile: $(file -b /tmp/iamafile)"
