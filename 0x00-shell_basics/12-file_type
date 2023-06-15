@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "File type: $(file -b /tmp/iamafile)"
+file_path="/tmp/iamafile" echo "$file_path: $(file -b "$file_path")"
